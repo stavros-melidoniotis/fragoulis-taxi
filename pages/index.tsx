@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -14,8 +15,9 @@ export default function Home() {
 
       <Header />
 
-      <main className="container mx-auto grow flex flex-col">
+      <main className="flex flex-col grow">
         <Hero />
+        <Testimonials />
         {/* <p> Pricing </p>
         <p> Places </p> */}
       </main>

@@ -1,0 +1,19 @@
+.testimonialContainer {
+  animation: testimonialsAnimation 25s ease-in-out infinite alternate;
+}
+
+.testimonialContainerReverse {
+    animation: testimonialsAnimation 25s ease-in-out infinite alternate-reverse;
+  }
+
+@keyframes testimonialsAnimation {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(-25%);
+    transform: translateX(-25%);
+  }
+}
