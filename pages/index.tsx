@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
 
       <main className="flex flex-col grow">
         <Hero />
+        <Gallery />
         <Testimonials />
         <Contact />
         {/* <p> Pricing </p>
