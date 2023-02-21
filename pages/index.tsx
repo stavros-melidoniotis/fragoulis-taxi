@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Gallery from "@/components/Gallery";
+import Places from "@/components/Places";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
 
       <main className="flex flex-col grow">
         <Hero />
+        <Places />
         <Gallery />
         <Testimonials />
         <Contact />
