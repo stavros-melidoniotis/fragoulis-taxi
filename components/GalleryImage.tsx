@@ -22,7 +22,7 @@ const GalleryImage = ({
         <Image
           src={src}
           alt={alt}
-          className="w-full h-[700px] rounded-lg object-cover shadow-lg"
+          className="w-full h-[500px] md:h-[700px] rounded-lg object-cover shadow-lg"
         />
       </div>
     );
@@ -30,11 +30,11 @@ const GalleryImage = ({
 
   return (
     <div
-      className={
+      className={`${
         isOpenInMainImage
           ? ""
           : "after:absolute after:pointer-events-none after:top-0 after:w-full after:h-full after:bg-white/60 after:hover:bg-white/30 after:transition-all after:block relative"
-      }
+      } w-28 h-28`}
     >
       <Image
         src={src}

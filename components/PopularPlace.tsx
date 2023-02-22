@@ -52,7 +52,7 @@ const PopularPlace = ({ place, isExpanded, clickHandler }: IPopularPlace) => {
       style={{ backgroundImage: `url(${place.mainImage?.src})` }}
     >
       <div
-        className={`z-20 flex items-center w-full ${
+        className={`z-20 flex flex-col md:flex-row md:items-center w-full ${
           isExpanded ? "justify-between" : "justify-center"
         }`}
       >

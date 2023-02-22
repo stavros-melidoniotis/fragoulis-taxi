@@ -16,7 +16,7 @@ const Contact = () => {
         <SectionTitle title="Let's get in touch!" />
       </div>
 
-      <div className="flex justify-center gap-8 pt-8">
+      <div className="flex flex-col md:flex-row justify-center gap-8 pt-8">
         <ContactBox
           icon={<BsTelephone />}
           link={<Link href="tel:+306944521800">+30 6944521800</Link>}

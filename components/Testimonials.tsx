@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="my-20">
       <div className="container mx-auto">
-        <SectionTitle title="What clients have to <br /> say about me" />
+        <SectionTitle title="What clients have to <br class='hidden md:block' /> say about me" />
       </div>
 
       <div

@@ -18,7 +18,7 @@ export default function Home() {
 
       <Header />
 
-      <main className="flex flex-col grow">
+      <main className="flex flex-col grow px-8 md:px-0">
         <Hero />
         <Places />
         <Gallery />
