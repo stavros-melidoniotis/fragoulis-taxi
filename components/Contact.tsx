@@ -17,28 +17,27 @@ const Contact = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-center gap-8 pt-8">
-        <ContactBox
-          icon={<BsTelephone />}
-          link={<Link href="tel:+306944521800">+30 6944521800</Link>}
-        />
+        <Link href="tel:+306944521800" className="w-fit mx-auto">
+          <ContactBox icon={<BsTelephone />} text="+30 6944521800" />
+        </Link>
 
-        <ContactBox
-          icon={<HiOutlineMail />}
-          link={
-            <Link href="mailto:fragoulis_giannis@hotmail.com">
-              fragoulis_giannis@hotmail.com
-            </Link>
-          }
-        />
+        <Link
+          href="mailto:fragoulis_giannis@hotmail.com"
+          className="w-fit mx-auto"
+        >
+          <ContactBox
+            icon={<HiOutlineMail />}
+            text="fragoulis_giannis@hotmail.com"
+          />
+        </Link>
 
-        <ContactBox
-          icon={<FaLocationArrow />}
-          link={
-            <Link href="https://goo.gl/maps/6MNLrr75KxgDfqyc7" target="_blank">
-              Timbaki, 70200 Crete
-            </Link>
-          }
-        />
+        <Link
+          href="https://goo.gl/maps/6MNLrr75KxgDfqyc7"
+          className="w-fit mx-auto"
+          target="_blank"
+        >
+          <ContactBox icon={<FaLocationArrow />} text="Timbaki, 70200 Crete" />
+        </Link>
       </div>
 
       <div className="flex items-center justify-center gap-3 mt-5">
