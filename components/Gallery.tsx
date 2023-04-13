@@ -36,7 +36,7 @@ const Gallery = () => {
 
       <GalleryImage src={mainImage} alt="main-image" isMain={true} />
 
-      <div className="mt-6 flex items-center gap-4 flex-wrap">
+      <div className="mt-6 flex items-center gap-4 md:flex-wrap overflow-x-auto">
         {taxiImages.map((image, index) => {
           return (
             <GalleryImage
