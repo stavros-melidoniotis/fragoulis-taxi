@@ -22,7 +22,7 @@ const GalleryImage = ({
         <Image
           src={src}
           alt={alt}
-          className="w-full md:h-[700px] rounded-lg object-contain md:object-cover md:shadow-lg"
+          className="w-full md:h-[700px] rounded-lg object-contain md:shadow-lg"
         />
       </div>
     );
