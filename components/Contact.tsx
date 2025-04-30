@@ -22,12 +22,12 @@ const Contact = () => {
         </Link>
 
         <Link
-          href="mailto:fragoulis_giannis@hotmail.com"
+          href="mailto:taxivanfragoulis@gmail.com"
           className="w-fit mx-auto"
         >
           <ContactBox
             icon={<HiOutlineMail />}
-            text="fragoulis_giannis@hotmail.com"
+            text="taxivanfragoulis@gmail.com"
           />
         </Link>
 
