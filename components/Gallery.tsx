@@ -12,6 +12,10 @@ import taxi7 from "../assets/images/taxi/taxi-7.jpg";
 import taxi8 from "../assets/images/taxi/taxi-8.jpg";
 import taxi9 from "../assets/images/taxi/taxi-9.jpg";
 import taxi10 from "../assets/images/taxi/taxi-10.jpg";
+import taxi11 from "../assets/images/taxi/taxi-11.jpg";
+import taxi12 from "../assets/images/taxi/taxi-12.jpg";
+import taxi13 from "../assets/images/taxi/taxi-13.jpg";
+import taxi14 from "../assets/images/taxi/taxi-14.jpg";
 
 const Gallery = () => {
   const [mainImage, setMainImage] = useState(taxi1);
@@ -26,6 +30,10 @@ const Gallery = () => {
     taxi7,
     taxi9,
     taxi10,
+    taxi11,
+    taxi12,
+    taxi13,
+    taxi14,
   ];
 
   return (
